@@ -105,6 +105,7 @@ namespace Codebase_Test.Controllers
                             return Ok(user);
                         }
                     }
+
                     else
                     {
                         return NotFound();
